@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>electric.mp3</file>
+        <file>translations/mme_ru.qm</file>
+    </qresource>
+</RCC>

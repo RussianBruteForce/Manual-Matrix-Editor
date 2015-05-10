@@ -1,0 +1,25 @@
+R"(<h6>This program allows you to do such row-transforms:</h6><br>
+<b>Row-switching transformations</b><br>
+The first type of row operation on a matrix A switches all matrix elements on row i with their counterparts on row j.<br>
+<i>swap Ra Rb</i> where a and b are numbers of rows<br>
+<b>Row-multiplying transformations</b><br>
+The next type of row operation on a matrix A multiplies all elements on row i by m where m is a non-zero scalar (usually a real number).<br>
+<i>Ra * x</i> where a is row number and x is multiplier<br>
+<b>Row-addition transformations</b><br>
+The final type of row operation on a matrix A adds row j multiplied by a scalar m to row i.<br>
+<i>Ra + Rb * x</i> where a, b are numbers of rows and x is multiplier<br>
+<br>
+Other supported operations:<br>
+<i>Ra + Rb</i> Ra[i] = Ra[i] + Rb[i]<br>
+<i>Ra + x</i> Ra[i] = Ra[i] + x<br>
+<i>Ra + x</i> Ra[i] = Ra[i] + x<br>
+<i>Ra * Rb * x</i> Ra[i] = Ra[i] * Rb[i] * x<br>
+Similary you can use / instead of * and - instead +;<br>
+
+<b>Multiply matrix on vector</b><br>
+Add new column and write your vector:<br>
+<i>a a a x</i><br>
+<i>a a a x</i><br>
+<i>a a a x</i><br>
+And press <u>*lastRow</u> button;
+)"
